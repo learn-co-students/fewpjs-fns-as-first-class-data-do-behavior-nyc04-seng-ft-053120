@@ -21,10 +21,11 @@ function greet(timeString) {
     return 'Good Afternoon'
   }
 }
+
 /* Write your implementation of displayMessage() */
 function displayMessage(content) {
   let greeting = document.querySelector("#greeting")//setting variable greeting to = #greeting, which we find with querySelector()
-  greeting.innerText = `${content}`// call greeting variable and use function innerText to add content
+  greeting.innerText = `${content}`
 }
 
 // function displayMessage(string){
