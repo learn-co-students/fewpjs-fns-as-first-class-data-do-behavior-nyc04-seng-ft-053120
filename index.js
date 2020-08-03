@@ -23,7 +23,7 @@ function greet(timeString) {
 }
 
 /* Write your implementation of displayMessage() */
-function displayMessage(content){
+function displayMessage(content) {
   document.querySelector('#greeting').innerText = content 
 }
 
