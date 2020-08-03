@@ -10,7 +10,7 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 /* Write your implementation of greet() */
 function greet(timeString) {
-  let parsedTime = parseInt(timeString); //set variable and parse it
+  let parsedTime = parseInt(timeString); //set variable and convert string to num with parseInt
   if (parsedTime < 12) { 
     return 'Good Morning'
   }
@@ -28,6 +28,6 @@ function displayMessage(content) {
 }
 
 // function displayMessage(content) {
-//   let greeting = document.querySelector("#greeting")//setting variable greeting to = #greeting, which we find with querySelector()
-//   greeting.innerText = `${content}`
+//   let greeting = document.querySelector("#greeting") //find elem with id of greeting and put it in a variable
+//   greeting.innerText = `${content}`  // update variable's content with the value of our argument
 // }
