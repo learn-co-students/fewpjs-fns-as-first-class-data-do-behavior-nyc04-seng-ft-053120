@@ -8,7 +8,6 @@ function handleClick(e) {
 }
 
 /* End Given Code, don't edit above here...*/
-
 /* Write your implementation of greet() */
 function greet(timeString) {
   let parsedTime = parseInt(timeString); //set variable and parse it
