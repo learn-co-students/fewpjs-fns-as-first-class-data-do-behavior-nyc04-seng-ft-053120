@@ -11,8 +11,8 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 function greet(timeString) {
-  let parsedTime = parseInt(timeString, 10); //set variable and parse it
-  if (parsedTime < 12) { //if variable is < 12, it will display good morning
+  let parsedTime = parseInt(timeString); //set variable and parse it
+  if (parsedTime < 12) { 
     return 'Good Morning'
   }
   else if (parsedTime > 17) {
@@ -23,8 +23,11 @@ function greet(timeString) {
   }
 }
 /* Write your implementation of displayMessage() */
-//function that takes a string argument and updates the text inside #greeting node with content of the argument
 function displayMessage(content) {
   let greeting = document.querySelector("#greeting")//setting variable greeting to = #greeting, which we find with querySelector()
   greeting.innerText = `${content}`// call greeting variable and use function innerText to add content
 }
+
+// function displayMessage(string){
+//   document.querySelector('#greeting').innerText = string
+// }
